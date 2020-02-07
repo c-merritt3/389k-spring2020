@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css">
+<style>
+  div.gallery {
+      margin: 5px;
+      border: 1px solid #ccc;
+      float: left;
+      width: 180px;
+  }
+
+  div.gallery:hover {
+      border: 1px solid #777;
+  }
+
+  div.gallery img {
+      width: 100%;
+      height: auto;
+  }
+
+  div.desc {
+      padding: 15px;
+      text-align: center;
+  }
+
+  header {
+      text-align: center;
+  }
+
+  body {
+    text-align: center;
+    background-color: gray;
+  }
+
+  @media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+</style>
+</head>
+
+<body>
+    <div class="gallery">
+        <a target="_blank" href="moscow.jpg">
+          <img src="moscow.jpg" id = "moscow" alt="Red Square" width="600" height="400">
+        </a>
+        <div class="desc">Spring Break trip to Russia</div>
+      </div>
+
+      <div class="gallery">
+        <a target="_blank" href="backyard.jpg">
+          <img src="backyard.jpg" alt="Carolia Beach Harbor" width="600" height="400">
+        </a>
+        <div class="desc">Early summer morning at home</div>
+      </div>
+
+      <div class="gallery">
+        <a target="_blank" href="caribbean.png">
+          <img src="caribbean.png" alt="National Park" width="600" height="400">
+        </a>
+        <div class="desc">Exploring a natioanl park</div>
+      </div>
+
+      <a href="index.html">Back</a>
+</body>
+</html>
